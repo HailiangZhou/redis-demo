@@ -39,6 +39,7 @@ public class HelloGC {
 
         System.out.println("main is over");
         System.out.println("===========");
+        System.out.println("1111");
     }
 
 
