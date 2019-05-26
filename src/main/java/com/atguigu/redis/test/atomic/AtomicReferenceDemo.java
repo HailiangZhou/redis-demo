@@ -25,5 +25,6 @@ public class AtomicReferenceDemo {
 
         System.out.println(atomicReference.compareAndSet(u1, u2) + "  " + atomicReference.get().toString());
         System.out.println(atomicReference.compareAndSet(u1, u2) + "  " + atomicReference.get().toString());
+        System.out.println("33333333333333");
     }
 }

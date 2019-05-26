@@ -36,5 +36,6 @@ public class AtomicStampedReferenceDemo {
             System.out.println(Thread.currentThread().getName() + "是否修改成功：" + result + ",当前版本号：" + atomicStampedReference.getStamp());
             System.out.println("当前实际最新值：" + atomicStampedReference.getReference());
         }, "T2").start();
+        System.out.println("444444444444");
     }
 }
