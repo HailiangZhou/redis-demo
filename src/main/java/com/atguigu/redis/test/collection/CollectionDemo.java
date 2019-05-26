@@ -16,5 +16,6 @@ public class CollectionDemo {
             }).start();
 
         }
+        System.out.println("22222222222");
     }
 }
